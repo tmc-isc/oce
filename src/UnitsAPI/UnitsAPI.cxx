@@ -41,7 +41,7 @@ void UnitsAPI::CheckLoading (const UnitsAPI_SystemUnits aSystemUnits)
       }
 #endif
       if (CasRootString.Length() > 0 )  {
-	CasRootString += "/src/UnitsAPI/Lexi_Expr.dat" ;
+	CasRootString += "/share/oce/UnitsAPI/Lexi_Expr.dat" ;
 	Units::LexiconFile(CasRootString.ToCString());
       }
       else {
@@ -60,7 +60,7 @@ void UnitsAPI::CheckLoading (const UnitsAPI_SystemUnits aSystemUnits)
       }
 #endif
       if (CasRootString.Length() > 0 ) {
-	CasRootString += "/src/UnitsAPI/Units.dat";
+	CasRootString += "/share/oce/UnitsAPI/Units.dat";
 	Units::UnitsFile(CasRootString.ToCString());
       }
       else {

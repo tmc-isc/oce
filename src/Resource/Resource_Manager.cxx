@@ -74,9 +74,9 @@ Resource_Manager::Resource_Manager(const Standard_CString aName,
   {
 #ifdef OCE_INSTALL_DATA_DIR
     if ( Name.IsEqual("STEP") || Name.IsEqual("IGES"))
-      DefaultVar = OCE_INSTALL_DATA_DIR "/src/XSTEPResource";
+      DefaultVar = OCE_INSTALL_DATA_DIR "/share/oce/XSTEPResource";
     else
-      DefaultVar = OCE_INSTALL_DATA_DIR "/src/StdResource";
+      DefaultVar = OCE_INSTALL_DATA_DIR "/share/oce/StdResource";
     Load(DefaultVar,myName,myRefMap);
 #else
     if (myVerbose)
