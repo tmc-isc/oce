@@ -1,0 +1,4 @@
+client jjAIS
+is
+	interface jiAIS;
+end ;
