@@ -183,11 +183,11 @@ Standard_Boolean AIS_TexturedShape::TriangleIsValid(const gp_Pnt& P1, const gp_P
 }
 
 //=======================================================================
-//function : ShowTriangles
+//function : SetShowTriangles
 //purpose  : 
 //=======================================================================
 
-void AIS_TexturedShape::ShowTriangles(const Standard_Boolean ShowTrianglesYN)
+void AIS_TexturedShape::SetShowTriangles(const Standard_Boolean ShowTrianglesYN)
 {
   DoShowTriangles = ShowTrianglesYN;
 }

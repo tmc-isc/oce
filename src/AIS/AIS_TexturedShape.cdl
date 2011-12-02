@@ -104,7 +104,7 @@ is
 
    
     ------------------------------------------------------------
-    ShowTriangles(  me : mutable; 
+    SetShowTriangles(  me : mutable; 
     	    	    ShowTrianglesYN: Boolean from Standard = Standard_False)
     is virtual;
     

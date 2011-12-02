@@ -106,7 +106,7 @@ public:
   //! Use this method to show the triangulation of <br>
 //!         the shape. This is not very esthetic but can be <br>
 //!         usefull for debug ... <br>
-  Standard_EXPORT   virtual  void ShowTriangles(const Standard_Boolean ShowTrianglesYN = Standard_False) ;
+  Standard_EXPORT   virtual  void SetShowTriangles(const Standard_Boolean ShowTrianglesYN = Standard_False) ;
   //! Enables texture mapping <br>
   Standard_EXPORT     void SetTextureMapOn() ;
   //! Disables texture mapping <br>
