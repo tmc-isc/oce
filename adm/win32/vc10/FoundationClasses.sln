@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TKernel", "TKernel.vcxproj", "{7D7B2B73-006A-1937-1337-B2A00C0F8CFF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TKMath", "TKMath.vcxproj", "{1EBB6B54-15B8-0DE8-0FD8-A08ABFAC6D41}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7D7B2B73-006A-1937-1337-B2A00C0F8CFF} = {7D7B2B73-006A-1937-1337-B2A00C0F8CFF}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TKAdvTools", "TKAdvTools.vcxproj", "{04E65A2B-187F-03FD-09EF-5F444B621A1B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7D7B2B73-006A-1937-1337-B2A00C0F8CFF} = {7D7B2B73-006A-1937-1337-B2A00C0F8CFF}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D7B2B73-006A-1937-1337-B2A00C0F8CFF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7D7B2B73-006A-1937-1337-B2A00C0F8CFF}.Debug|Win32.Build.0 = Debug|Win32
+		{7D7B2B73-006A-1937-1337-B2A00C0F8CFF}.Release|Win32.ActiveCfg = Release|Win32
+		{7D7B2B73-006A-1937-1337-B2A00C0F8CFF}.Release|Win32.Build.0 = Release|Win32
+		{1EBB6B54-15B8-0DE8-0FD8-A08ABFAC6D41}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1EBB6B54-15B8-0DE8-0FD8-A08ABFAC6D41}.Debug|Win32.Build.0 = Debug|Win32
+		{1EBB6B54-15B8-0DE8-0FD8-A08ABFAC6D41}.Release|Win32.ActiveCfg = Release|Win32
+		{1EBB6B54-15B8-0DE8-0FD8-A08ABFAC6D41}.Release|Win32.Build.0 = Release|Win32
+		{04E65A2B-187F-03FD-09EF-5F444B621A1B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{04E65A2B-187F-03FD-09EF-5F444B621A1B}.Debug|Win32.Build.0 = Debug|Win32
+		{04E65A2B-187F-03FD-09EF-5F444B621A1B}.Release|Win32.ActiveCfg = Release|Win32
+		{04E65A2B-187F-03FD-09EF-5F444B621A1B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

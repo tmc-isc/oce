@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{C42D0B49-187C-1842-08C8-28689F0F30E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\XBRepMesh">
+      <UniqueIdentifier>{88A6B168-03F5-09BB-082A-D7E5C83E1E4B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\XBRepMesh\XBRepMesh.cxx">
+      <Filter>Source files\XBRepMesh</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

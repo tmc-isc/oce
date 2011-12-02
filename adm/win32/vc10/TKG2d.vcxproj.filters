@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{5FD43E78-15D9-170D-0A6F-00146D7F5182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Geom2d">
+      <UniqueIdentifier>{31FE68BB-0B17-0A69-11FA-D5F1825F57C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\LProp">
+      <UniqueIdentifier>{89EF0A1F-1839-1807-0D34-3882A5250142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TColGeom2d">
+      <UniqueIdentifier>{D3186183-0E57-0BFC-187C-45538ADA1FC4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Adaptor2d">
+      <UniqueIdentifier>{58E15BA7-100B-013B-0AF8-6CA4816DF0E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Geom2dLProp">
+      <UniqueIdentifier>{E7B95AD3-1025-1968-1473-375886C5BFE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Geom2dAdaptor">
+      <UniqueIdentifier>{7B04DD5E-08BC-1165-0ABF-733AEB368E31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TopAbs">
+      <UniqueIdentifier>{DF7EBBCE-0AD1-0917-0FE5-EABCA5D2841C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\GProp">
+      <UniqueIdentifier>{C0EC8F7F-1210-0A72-0AFE-84078C9FF015}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\drv\Geom2d\Geom2d_UndefinedDerivative_0.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\Geom2d\Geom2d_UndefinedValue_0.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_AxisPlacement.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_BSplineCurve.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_BSplineCurve_1.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_BezierCurve.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_BoundedCurve.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_CartesianPoint.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_Circle.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_Conic.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_Curve.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_Direction.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_Ellipse.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_Geometry.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_Hyperbola.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_Line.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_OffsetCurve.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_Parabola.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_Point.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_Transformation.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_TrimmedCurve.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_Vector.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_VectorWithMagnitude.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\LProp\LProp_BadContinuity_0.cxx">
+      <Filter>Source files\LProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\LProp\LProp_NotDefined_0.cxx">
+      <Filter>Source files\LProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\LProp\LProp_SequenceNodeOfSequenceOfCIType_0.cxx">
+      <Filter>Source files\LProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\LProp\LProp_SequenceOfCIType_0.cxx">
+      <Filter>Source files\LProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LProp\LProp_AnalyticCurInf.cxx">
+      <Filter>Source files\LProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LProp\LProp_CurAndInf.cxx">
+      <Filter>Source files\LProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\TColGeom2d\TColGeom2d_Array1OfBSplineCurve_0.cxx">
+      <Filter>Source files\TColGeom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\TColGeom2d\TColGeom2d_Array1OfBezierCurve_0.cxx">
+      <Filter>Source files\TColGeom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\TColGeom2d\TColGeom2d_Array1OfBoundedCurve_0.cxx">
+      <Filter>Source files\TColGeom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\TColGeom2d\TColGeom2d_Array1OfCurve_0.cxx">
+      <Filter>Source files\TColGeom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\TColGeom2d\TColGeom2d_Array1OfGeometry_0.cxx">
+      <Filter>Source files\TColGeom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\TColGeom2d\TColGeom2d_HArray1OfBSplineCurve_0.cxx">
+      <Filter>Source files\TColGeom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\TColGeom2d\TColGeom2d_HArray1OfBezierCurve_0.cxx">
+      <Filter>Source files\TColGeom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\TColGeom2d\TColGeom2d_HArray1OfBoundedCurve_0.cxx">
+      <Filter>Source files\TColGeom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\TColGeom2d\TColGeom2d_HArray1OfCurve_0.cxx">
+      <Filter>Source files\TColGeom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\TColGeom2d\TColGeom2d_HArray1OfGeometry_0.cxx">
+      <Filter>Source files\TColGeom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\TColGeom2d\TColGeom2d_HSequenceOfBoundedCurve_0.cxx">
+      <Filter>Source files\TColGeom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\TColGeom2d\TColGeom2d_HSequenceOfCurve_0.cxx">
+      <Filter>Source files\TColGeom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\TColGeom2d\TColGeom2d_HSequenceOfGeometry_0.cxx">
+      <Filter>Source files\TColGeom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\TColGeom2d\TColGeom2d_SequenceNodeOfSequenceOfBoundedCurve_0.cxx">
+      <Filter>Source files\TColGeom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\TColGeom2d\TColGeom2d_SequenceNodeOfSequenceOfCurve_0.cxx">
+      <Filter>Source files\TColGeom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\TColGeom2d\TColGeom2d_SequenceNodeOfSequenceOfGeometry_0.cxx">
+      <Filter>Source files\TColGeom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\TColGeom2d\TColGeom2d_SequenceOfBoundedCurve_0.cxx">
+      <Filter>Source files\TColGeom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\TColGeom2d\TColGeom2d_SequenceOfCurve_0.cxx">
+      <Filter>Source files\TColGeom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\TColGeom2d\TColGeom2d_SequenceOfGeometry_0.cxx">
+      <Filter>Source files\TColGeom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\Adaptor2d\Adaptor2d_HLine2d_0.cxx">
+      <Filter>Source files\Adaptor2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Adaptor2d\Adaptor2d_Curve2d.cxx">
+      <Filter>Source files\Adaptor2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Adaptor2d\Adaptor2d_HCurve2d.cxx">
+      <Filter>Source files\Adaptor2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Adaptor2d\Adaptor2d_Line2d.cxx">
+      <Filter>Source files\Adaptor2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\Geom2dLProp\Geom2dLProp_CLProps2d_0.cxx">
+      <Filter>Source files\Geom2dLProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\Geom2dLProp\Geom2dLProp_FCurExtOfNumericCurInf2d_0.cxx">
+      <Filter>Source files\Geom2dLProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\Geom2dLProp\Geom2dLProp_FCurNulOfNumericCurInf2d_0.cxx">
+      <Filter>Source files\Geom2dLProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\Geom2dLProp\Geom2dLProp_NumericCurInf2d_0.cxx">
+      <Filter>Source files\Geom2dLProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2dLProp\Geom2dLProp_CurAndInf2d.cxx">
+      <Filter>Source files\Geom2dLProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2dLProp\Geom2dLProp_Curve2dTool.cxx">
+      <Filter>Source files\Geom2dLProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\Geom2dAdaptor\Geom2dAdaptor_GHCurve_0.cxx">
+      <Filter>Source files\Geom2dAdaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2dAdaptor\Geom2dAdaptor.cxx">
+      <Filter>Source files\Geom2dAdaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2dAdaptor\Geom2dAdaptor_Curve.cxx">
+      <Filter>Source files\Geom2dAdaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2dAdaptor\Geom2dAdaptor_HCurve.cxx">
+      <Filter>Source files\Geom2dAdaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TopAbs\TopAbs.cxx">
+      <Filter>Source files\TopAbs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\GProp\GProp_UndefinedAxis_0.cxx">
+      <Filter>Source files\GProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GProp\GProp.cxx">
+      <Filter>Source files\GProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GProp\GProp_CelGProps.cxx">
+      <Filter>Source files\GProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GProp\GProp_GProps.cxx">
+      <Filter>Source files\GProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GProp\GProp_PEquation.cxx">
+      <Filter>Source files\GProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GProp\GProp_PGProps.cxx">
+      <Filter>Source files\GProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GProp\GProp_PrincipalProps.cxx">
+      <Filter>Source files\GProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GProp\GProp_SelGProps.cxx">
+      <Filter>Source files\GProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GProp\GProp_VelGProps.cxx">
+      <Filter>Source files\GProp</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
